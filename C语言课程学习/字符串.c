@@ -1,21 +1,21 @@
 //需求：键盘录入一个字符串，使用程序实现在控制台遍历该字符串
-//#include<stdio.h>
-//int main()
-//{
-//	char a[100];
-//	char* p=a;
-//	scanf("%s",a);
-//	printf("%s\n",p);
-//	while(1)
-//	{
-//		char c=*p++;
-//		printf("%c\n",c);
-//		if(c=='\0')
-//		{
-//			break;
-//		}
-//	}
-//}
+#include<stdio.h>
+int main()
+{
+	char a[100];
+	char* p=a;
+	scanf("%s",a);
+	printf("%s\n",p);
+	while(1)
+	{
+		char c=*p++;
+		printf("%c\n",c);
+		if(c=='\0')
+		{
+			break;
+		}
+	}
+}
 
 
 
